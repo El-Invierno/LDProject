@@ -1,5 +1,5 @@
 
-# UseReady L&D Chat Application
+# L&D Chat Application
 
 This is an interactive chat application built with Streamlit that allows users to ask questions about UseReady's company policies, projects, and guidelines. The app leverages OpenAI's GPT-4 model and the `llama_index` library to provide accurate and relevant answers based on provided documentation.
 
