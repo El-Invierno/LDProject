@@ -1,11 +1,11 @@
 
 # L&D Chat Application
 
-This is an interactive chat application built with Streamlit that allows users to ask questions about UseReady's company policies, projects, and guidelines. The app leverages OpenAI's GPT-4 model and the `llama_index` library to provide accurate and relevant answers based on provided documentation.
+This is an interactive chat application built with Streamlit that allows users to ask questions about the company policies, projects, and guidelines. The app leverages OpenAI's GPT-4 model and the `llama_index` library to provide accurate and relevant answers based on provided documentation.
 
 ## Features
 
-- **Interactive Chat Interface**: Engage in a conversation with an AI assistant specialized in UseReady's policies.
+- **Interactive Chat Interface**: Engage in a conversation with an AI assistant specialized in the policies.
 - **Document Indexing**: Automatically indexes documents in the `./data` directory for efficient querying.
 - **Customizable Responses**: Configured to provide technical and fact-based answers without hallucinations.
 
@@ -78,7 +78,7 @@ The application will open in your default web browser at `http://localhost:8501`
 
 ## Usage
 
-- **Ask Questions**: Use the chat input to ask questions about UseReady's policies and guidelines.
+- **Ask Questions**: Use the chat input to ask questions about the policies and guidelines.
 - **View Responses**: The assistant will provide answers based on the indexed documents and the GPT-4 model.
 - **Chat History**: Scroll through the conversation to review previous questions and answers.
 
@@ -104,7 +104,7 @@ The application will open in your default web browser at `http://localhost:8501`
       Settings.llm = OpenAI(
           model="gpt-4",
           temperature=0.2,
-          system_prompt="""You are an expert on UseReady's company policies and guidelines."""
+          system_prompt="""You are an expert on the company policies and guidelines."""
       )
       index = VectorStoreIndex.from_documents(docs)
       return index
