@@ -148,33 +148,3 @@ Install all dependencies using:
 ```bash
 pip install streamlit openai python-dotenv llama_index
 ```
-
-## Customization
-
-- **System Prompt**: Modify the `system_prompt` in the `load_data` function to change how the assistant responds.
-- **Model Parameters**: Adjust the `model` and `temperature` in the `OpenAI` LLM settings.
-- **Data Directory**: Change the `input_dir` in `SimpleDirectoryReader` if your documents are in a different location.
-
-## Troubleshooting
-
-- **API Key Issues**: Ensure your OpenAI API key is correct and has access to GPT-4.
-- **Module Not Found**: Make sure all dependencies are installed in your virtual environment.
-- **Data Loading Errors**: Verify that the `./data` directory exists and contains valid documents.
-
-## Contributing
-
-Contributions are welcome! Please submit a pull request or open an issue to discuss any changes.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
-## Acknowledgments
-
-- **OpenAI**: For providing the GPT-4 model.
-- **Streamlit**: For the interactive web app framework.
-- **llama_index**: For simplifying document indexing and querying.
-
----
-
-Feel free to reach out if you have any questions or need further assistance!
